@@ -21,7 +21,7 @@ public class EjerciciosPropuestos {
 		int resultado;
 		char letra;
 
-		resultado= (int)(Math.random()*10+65); //sumo 26 num del abecedario (sin la ñ) el valor en ASCII
+		resultado= (int)(Math.random()*26+65); //sumo 26 num del abecedario (sin la ñ) el valor en ASCII
 		
 		letra = (char)resultado; //lo casteo a char para que me dé la letra
 		System.out.println("Letra: " + letra);
