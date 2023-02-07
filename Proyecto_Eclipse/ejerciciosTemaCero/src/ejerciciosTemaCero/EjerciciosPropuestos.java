@@ -20,15 +20,18 @@ public class EjerciciosPropuestos {
 		
 		int resultado;
 		char letra;
-		boolean es_vocal;
 
-		resultado= (int)(Math.random()*26+65); //Sumamos al numero de letras (sin ñ) el valor en ASCII
-		letra = (char)resultado;
-		es_vocal = ((letra=='A') || (letra=='E') || (letra=='I') || (letra=='O') || (letra=='U'));
+		resultado= (int)(Math.random()*10+65); //sumo 26 num del abecedario (sin la ñ) el valor en ASCII
+		
+		letra = (char)resultado; //lo casteo a char para que me dé la letra
+		System.out.println("Letra: " + letra);
+		
+		if (letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U') {
+			System.out.println("Es una vocal");
+		} else {
+			System.out.println("Es una consonante");
+		}
 
-		System.out.println("Letra obtenida: " + letra);
-		System.out.println("¿Es una vocal?: " + es_vocal );
-		System.out.println("¿Es una consonante?: " + !es_vocal);
 	}
 
 	public static void main(String[] args) {
