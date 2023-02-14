@@ -41,7 +41,7 @@ public class EjercicioNumero {
 	public static void main(String[] args) {
 		
 		EjercicioNumero num1 = new EjercicioNumero();
-		num1.setNumero(5);
+		num1.setNumero(8);
 		
 	
 		System.out.println(num1.aniade(6));
