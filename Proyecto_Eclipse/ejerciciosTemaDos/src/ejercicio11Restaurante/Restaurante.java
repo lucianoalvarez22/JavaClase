@@ -55,12 +55,11 @@ public class Restaurante {
 	
 	public static void main(String[] args) {
 		
-		Restaurante rest1 = new Restaurante(1.0, 0.5);
+		Restaurante rest1 = new Restaurante(1, 0.5);
 
-		rest1.addPapas(5.0);
-		rest1.addChocos(5.0);
-		System.out.println(rest1.showPapas());
-		System.out.println(rest1.showChocos());
+//		rest1.addPapas(5.0);
+//		rest1.addChocos(5.0);
+		
 		System.out.println(rest1.CalculaClientes());
 	}
 

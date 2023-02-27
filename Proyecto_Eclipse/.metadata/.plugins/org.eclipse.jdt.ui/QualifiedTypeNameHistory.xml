@@ -6,4 +6,9 @@
     <fullyQualifiedTypeName name="ejercicioMinutero.MiNumero"/>
     <fullyQualifiedTypeName name="ejerciciosNumero.EjercicioNumero"/>
     <fullyQualifiedTypeName name="ejercicio11Restaurante.Restaurante"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="ejercicio11Restaurante.RestauranteIsrael"/>
+    <fullyQualifiedTypeName name="ejercicio11Restaurante.RestauranteException"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="libreria.Calculadora"/>
 </qualifiedTypeNameHistroy>
