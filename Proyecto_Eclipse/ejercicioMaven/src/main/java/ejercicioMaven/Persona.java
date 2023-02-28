@@ -1,7 +1,7 @@
 package ejercicioMaven;
 
 public class Persona {
-	
+	//ATRIBUTOS
 	private String nombre;
 	private int edad;
 	private String DNI;
@@ -129,9 +129,9 @@ public class Persona {
 
 
 	public static void main(String[] args) {
-		Persona persona1 = new Persona();
-		Persona persona2 = new Persona("Luciano", 28, "H");
-		Persona persona3 = new Persona("Alexis", 28, "1234567L", "abc", 60.0, 1.71);
+		Persona persona1 = new Persona(); //CONSTRUCTOR 1
+		Persona persona2 = new Persona("Luciano", 28, "H"); //CONSTRUCTOR 2
+		Persona persona3 = new Persona("Alexis", 28, "1234567L", "abc", 60.0, 1.71); //CONSTRUCTOR 3
 		
 		System.out.println(persona1.toString());
 		System.out.println(persona2.toString());
