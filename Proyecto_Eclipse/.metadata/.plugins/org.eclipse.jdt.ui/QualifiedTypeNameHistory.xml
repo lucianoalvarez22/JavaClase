@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="ejerciciosTemaCero.ejercicio4"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ejerciciosFinanzas.finanzas"/>
     <fullyQualifiedTypeName name="ejercicioMinutero.MiNumero"/>
     <fullyQualifiedTypeName name="ejerciciosNumero.EjercicioNumero"/>
@@ -9,6 +8,22 @@
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="ejercicio11Restaurante.RestauranteIsrael"/>
     <fullyQualifiedTypeName name="ejercicio11Restaurante.RestauranteException"/>
-    <fullyQualifiedTypeName name="org.junit.Test"/>
     <fullyQualifiedTypeName name="libreria.Calculadora"/>
+    <fullyQualifiedTypeName name="ejercicioMaven.IMCException"/>
+    <fullyQualifiedTypeName name="ejercicioMaven.EdadException"/>
+    <fullyQualifiedTypeName name="banco.SaldoException"/>
+    <fullyQualifiedTypeName name="banco.CuentaBancaria"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="ejercicioGestionErrores.VocalException"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="ejercicioGestionErrores.NumeroException"/>
+    <fullyQualifiedTypeName name="ejercicioGestionErrores.BlancoException"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="ejercicioGestionErrores.SalidaException"/>
+    <fullyQualifiedTypeName name="java.nio.file.spi.FileSystemProvider"/>
+    <fullyQualifiedTypeName name="ejercicioGestionErrores.LeerPorTeclado"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
 </qualifiedTypeNameHistroy>

@@ -13,6 +13,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -48,6 +49,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="ejercicioGestionErroresMaven"/>
 			<item value="ejercicioMaven"/>
 			<item value="testMaven"/>
 		</list>

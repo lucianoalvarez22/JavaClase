@@ -6,7 +6,7 @@ public class TestJavaUnit {
 
 	@Test
 	
-	void test1() {
+	public void test1() {
 		
 	}
 }
