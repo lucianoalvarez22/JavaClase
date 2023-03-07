@@ -15,9 +15,6 @@
     <fullyQualifiedTypeName name="banco.CuentaBancaria"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="ejercicioGestionErrores.VocalException"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
     <fullyQualifiedTypeName name="ejercicioGestionErrores.NumeroException"/>
     <fullyQualifiedTypeName name="ejercicioGestionErrores.BlancoException"/>
@@ -26,4 +23,17 @@
     <fullyQualifiedTypeName name="java.nio.file.spi.FileSystemProvider"/>
     <fullyQualifiedTypeName name="ejercicioGestionErrores.LeerPorTeclado"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="ejercicioGestionErrores.VocalException"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="gestionExcepcepcionesAleatorias.ExcepcionesAleatorias"/>
+    <fullyQualifiedTypeName name="gestionExcepcepcionesAleatorias.SuperiorException"/>
+    <fullyQualifiedTypeName name="gestionExcepcepcionesAleatorias.InferiorException"/>
+    <fullyQualifiedTypeName name="gestionExcepcionesPorTeclado.VocalException"/>
+    <fullyQualifiedTypeName name="gestionExcepcionesPorTeclado.NumeroException"/>
+    <fullyQualifiedTypeName name="gestionExcepcionesPorTeclado.BlancoException"/>
+    <fullyQualifiedTypeName name="gestionExcepcionesPorTeclado.SalidaException"/>
 </qualifiedTypeNameHistroy>
