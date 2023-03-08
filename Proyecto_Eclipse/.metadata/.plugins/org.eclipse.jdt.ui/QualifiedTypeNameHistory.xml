@@ -27,7 +27,6 @@
     <fullyQualifiedTypeName name="ejercicioGestionErrores.VocalException"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="gestionExcepcepcionesAleatorias.ExcepcionesAleatorias"/>
     <fullyQualifiedTypeName name="gestionExcepcepcionesAleatorias.SuperiorException"/>
@@ -36,4 +35,9 @@
     <fullyQualifiedTypeName name="gestionExcepcionesPorTeclado.NumeroException"/>
     <fullyQualifiedTypeName name="gestionExcepcionesPorTeclado.BlancoException"/>
     <fullyQualifiedTypeName name="gestionExcepcionesPorTeclado.SalidaException"/>
+    <fullyQualifiedTypeName name="ejercicioGestionEspecificasGenericas.InfantilException"/>
+    <fullyQualifiedTypeName name="ejercicioGestionEspecificasGenericas.AdultoException"/>
+    <fullyQualifiedTypeName name="ejercicioGestionEspecificasGenericas.MayorException"/>
+    <fullyQualifiedTypeName name="ejercicioGestionEspecificasGenericas.PruebaEdadPersonas"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>

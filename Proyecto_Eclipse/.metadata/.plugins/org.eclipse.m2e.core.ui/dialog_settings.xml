@@ -49,6 +49,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="ejercicioGestionEspecificasGenericas"/>
 			<item value="ejercicioGestionErroresMaven"/>
 			<item value="ejercicioMaven"/>
 			<item value="testMaven"/>
