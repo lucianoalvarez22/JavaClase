@@ -72,6 +72,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Luciano\Documents\examen_DAM\examenDAMSegundoParcial"/>
+			<item value="C:\Users\Luciano\Documents\GitAleJava\testExamenDAM"/>
+			<item value="C:\Users\Luciano\Documents\GitAleJava\ejercicioRepasoTema3"/>
 			<item value="C:\Users\Luciano\Documents\GitAleJava\excepciones"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ejerciciosTemaCero.ejercicio4"/>
-    <fullyQualifiedTypeName name="ejerciciosFinanzas.finanzas"/>
-    <fullyQualifiedTypeName name="ejercicioMinutero.MiNumero"/>
     <fullyQualifiedTypeName name="ejerciciosNumero.EjercicioNumero"/>
     <fullyQualifiedTypeName name="ejercicio11Restaurante.Restaurante"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
@@ -25,9 +22,6 @@
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="ejercicioGestionErrores.VocalException"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="gestionExcepcepcionesAleatorias.ExcepcionesAleatorias"/>
     <fullyQualifiedTypeName name="gestionExcepcepcionesAleatorias.SuperiorException"/>
     <fullyQualifiedTypeName name="gestionExcepcepcionesAleatorias.InferiorException"/>
@@ -39,5 +33,31 @@
     <fullyQualifiedTypeName name="ejercicioGestionEspecificasGenericas.AdultoException"/>
     <fullyQualifiedTypeName name="ejercicioGestionEspecificasGenericas.MayorException"/>
     <fullyQualifiedTypeName name="ejercicioGestionEspecificasGenericas.PruebaEdadPersonas"/>
+    <fullyQualifiedTypeName name="excepciones.Menor25Exception"/>
+    <fullyQualifiedTypeName name="excepciones.Menor50Exception"/>
+    <fullyQualifiedTypeName name="excepciones.Menor75Exception"/>
+    <fullyQualifiedTypeName name="excepciones.Menor100Exception"/>
+    <fullyQualifiedTypeName name="java.lang.Number"/>
+    <fullyQualifiedTypeName name="paquete2.ChequeaNumeros"/>
+    <fullyQualifiedTypeName name="paquete1.ClaseUno"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.Constantes"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.NumeroNoValidoException"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.NumeroNotFoundException"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.PosicionNoValidaException"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.PosicionVaciaException"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.Agenda"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.Utilidades"/>
+    <fullyQualifiedTypeName name="ejerciciosTemaCero.Joven"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.excepciones.MesNoValidoException"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.ExamenSegundoParcial"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.utilidades.Constantes"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.utilidades.Utilidades"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.CajaFuerte"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.excepciones.DemasiadosIntentosException"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.excepciones.InsuficientesDigitosException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.excepciones.ExcesivosDigitosException"/>
 </qualifiedTypeNameHistroy>

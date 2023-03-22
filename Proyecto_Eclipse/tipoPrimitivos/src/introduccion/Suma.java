@@ -10,6 +10,8 @@ public class Suma {
 		suma = n1 + n2;
 		System.out.println("LA SUMA ES: " + suma);
 		
+		System.out.println(Suma.n1); //n1 es una variable estatica y se usa poniendo la Clase y luego la variable
+		
 	}
 
 }

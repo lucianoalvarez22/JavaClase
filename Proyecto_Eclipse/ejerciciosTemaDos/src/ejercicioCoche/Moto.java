@@ -14,8 +14,8 @@ public class Moto {
 	}
 	
 	public Moto(String lamarca, int lavelocidad) {
-		lamarca = marca;
-		lavelocidad = velocidad;
+		marca = lamarca;
+		velocidad = lavelocidad;
 	}
 
 	//GETTERS AND SETTERS

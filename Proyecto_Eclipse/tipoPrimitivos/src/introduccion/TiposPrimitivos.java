@@ -26,7 +26,7 @@ public class TiposPrimitivos {
 
 		// caracteres
 
-		char c = 217;
+		char c = 90;
 
 		System.out.println(c);
 

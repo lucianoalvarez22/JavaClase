@@ -15,7 +15,7 @@ public class EjerciciosPropuestos {
 		double calculoFinal = radio * pi * 2;
 		System.out.println(calculoFinal);	
 	}
-	
+	 
 	public static void ejercicio8() {
 		
 		int resultado;
@@ -35,7 +35,7 @@ public class EjerciciosPropuestos {
 	}
 
 	public static void main(String[] args) {
-		ejercicio8();
+		ejercicio4();
 	}
 
 }

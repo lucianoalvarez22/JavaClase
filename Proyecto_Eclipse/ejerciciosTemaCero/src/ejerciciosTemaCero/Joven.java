@@ -13,7 +13,7 @@ public class Joven {
 		System.out.println(i);
 	}
 
-	public static void ejercicio5() {
+	public void ejercicio5() {
 
 		if (edad <= 28 && nivelDeEstudios > 3 && ingresos > 28000) {
 			jasp = true;
@@ -23,7 +23,8 @@ public class Joven {
 	}
 
 	public static void main(String[] args) {
-		ejercicio6();
+		Joven joven1 = new Joven();
+		joven1.ejercicio5();
 
 	}
 
