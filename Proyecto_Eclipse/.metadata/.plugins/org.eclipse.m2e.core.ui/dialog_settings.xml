@@ -44,11 +44,16 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="luciano_alvarez"/>
+			<item value="lucianoalvarez"/>
 			<item value="luciano"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Tema4EjerciciosClassRoom"/>
+			<item value="Tema4Ejercicios"/>
+			<item value="Tema4"/>
 			<item value="ejercicioGestionEspecificasGenericas"/>
 			<item value="ejercicioGestionErroresMaven"/>
 			<item value="ejercicioMaven"/>
