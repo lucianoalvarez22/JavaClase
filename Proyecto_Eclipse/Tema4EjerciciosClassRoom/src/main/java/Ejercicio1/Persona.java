@@ -3,28 +3,33 @@ package Ejercicio1;
 public class Persona {
 
 	// Atributos
-	public String nombre;
-	public String apellidos;
-	public String DNI;
-	public int anyoNacimientos;
+	protected String nombre;
+	protected String apellidos;
+	protected String DNI;
+	protected int anyoNacimientos;
 	private String apodo;
 
-	// Constructor con parametros
+	// Constructor 1 con parametros
 	public Persona(String nombre, String apellidos, String DNI, int anyoNacimientos, String apodo) {
-		this.nombre = nombre;
-		this.apellidos = apellidos;
+		this(nombre, apellidos); //Llamamos al tercer constructor nombre y apellidos
 		this.DNI = DNI;
 		this.anyoNacimientos = anyoNacimientos;
 		this.apodo = apodo;
 	}
 
-	// Constructor COPIA
+	// Constructor 2 COPIA
 	public Persona(Persona p) {
 		this.nombre = p.nombre;
 		this.apellidos = p.apellidos;
 		this.DNI = p.DNI;
 		this.anyoNacimientos = p.anyoNacimientos;
 		this.apodo = p.apodo;
+	}
+	
+	//Constructor 3 para llamar desde otro constructor
+	public Persona (String nombre, String apellidos) {
+		this.nombre = nombre;
+		this.apellidos = apellidos;
 	}
 
 	// GET AND SET
@@ -70,14 +75,14 @@ public class Persona {
 	}
 
 	// TO STRING
-	@Override
-	public String toString() {
-		return "Persona [nombre=" + nombre + ", apellidos=" + apellidos + ", DNI=" + DNI + ", anyoNacimientos="
-				+ anyoNacimientos + ", apodo=" + apodo + "]";
-	}
+//	@Override
+//	public String toString() {
+//		return "Persona [nombre=" + nombre + ", apellidos=" + apellidos + ", DNI=" + DNI + ", anyoNacimientos="
+//				+ anyoNacimientos + ", apodo=" + apodo + "]";
+//	}
 
 	// METODO EQUALS
-	@Override
+	@Override 
 	public boolean equals(Object obj) {
 		Persona objetoAComparar = (Persona) obj;
 		if (this.nombre == objetoAComparar.nombre && this.apellidos == objetoAComparar.apellidos && this.DNI == objetoAComparar.DNI

@@ -68,6 +68,10 @@ public class TestPersona {
 		Empleado emp5 = emp2;
 		
 		//ASSERT
+//		assertFalse("Deberia ser false", emp1.getPersona() == emp4.getPersona());
+		System.out.println(emp1);
+		System.out.println(emp4);
+		
 		assertFalse("Deberia ser false", emp0==emp1);
 		assertFalse("Deberia ser false", emp4==emp1);
 		

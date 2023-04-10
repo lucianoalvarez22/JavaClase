@@ -3,7 +3,7 @@ package Ejercicio1;
 public class Empleado {
 
 	// ATRIBUTOS
-	public int idEmpleado;
+	protected int idEmpleado;
 	private String departamento;
 	private Persona persona;
 
@@ -23,7 +23,7 @@ public class Empleado {
 
 	// GETTER AND SETTER
 	public int getIdEmpleado() {
-		return idEmpleado;
+		return idEmpleado; 
 	}
 
 	public void setIdEmpleado(int idEmpleado) {
@@ -49,23 +49,24 @@ public class Empleado {
 	// METODO STRING
 	@Override
 	public String toString() {
-		return "Empleado [idEmpleado=" + idEmpleado + ", departamento=" + departamento + ", persona=" + persona + "]";
+		return "Empleado [idEmpleado=" + idEmpleado + ", departamento=" + departamento + ", persona=" + persona.toString() + "]";
 	}
 	
 	//METODO EQUALS
 	@Override
 	public boolean equals(Object obj) {
 		Empleado empAComparar = (Empleado) obj;
-		if (this.idEmpleado==empAComparar.idEmpleado && this.departamento == empAComparar.departamento && this.persona==empAComparar.persona)
-			return true;
-		return false;  
-	}
+		if (this.idEmpleado==empAComparar.idEmpleado && this.departamento == empAComparar.departamento)
+			if(persona != null)
+				return persona.equals(empAComparar.persona);
+		return false; 
+	} 
 	
 	//METODO CLONE
 	@Override
 	public Object clone() throws CloneNotSupportedException {
-		Empleado empleadoAClonar = new Empleado(this.idEmpleado, this.departamento, this.persona);
-		return empleadoAClonar;
+		Persona pc=(Persona) this.persona.clone();
+		return new Empleado(this.idEmpleado, this.departamento, pc); 
 	}
 
 }
