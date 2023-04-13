@@ -13,6 +13,11 @@ public class ProfesorInterino extends Profesor {
 		this.fechaInterenidad = fechaInterenidad;
 	}
 
+	public ProfesorInterino(Date fechaInterenidad, Profesor prof) {
+		super(prof);
+		this.fechaInterenidad = fechaInterenidad;
+	}
+
 	// Constructor COPIA
 	public ProfesorInterino(ProfesorInterino profInt) {
 		super(profInt.idProfesor, profInt.asignatura, profInt.nombre, profInt.apellidos, profInt.edad);
@@ -37,20 +42,26 @@ public class ProfesorInterino extends Profesor {
 	// EQUALS
 	@Override
 	public boolean equals(Object obj) {
-		ProfesorInterino profIntComparar = (ProfesorInterino) obj;
-		if (this.fechaInterenidad == profIntComparar.fechaInterenidad && super.idProfesor == profIntComparar.idProfesor
-				&& super.asignatura == profIntComparar.asignatura && super.nombre == profIntComparar.nombre
-				&& super.apellidos == profIntComparar.apellidos && super.edad == profIntComparar.edad)
+		if (this == obj)
 			return true;
-		return false;
+		else {
+			ProfesorInterino pi = (ProfesorInterino) obj;
+			if (super.equals(pi)) {
+				if (this.fechaInterenidad.equals(fechaInterenidad))
+					return true;
+			}
+			return false;
+		}
 	}
 
 	// CLONAR
 	@Override
 	public Object clone() throws CloneNotSupportedException {
-		ProfesorInterino profIntClonar = new ProfesorInterino(this.fechaInterenidad,
-				super.nombre, super.apellidos, super.edad, super.idProfesor, super.asignatura);
-		return profIntClonar; 
+		// CLONO LA FECHA
+		Profesor prof1=(Profesor)super.clone();
+		Date fechaInt=(Date)this.fechaInterenidad.clone();
+		ProfesorInterino profInt=new ProfesorInterino(fechaInt, prof1);		
+		return profInt;
 	}
 
 }

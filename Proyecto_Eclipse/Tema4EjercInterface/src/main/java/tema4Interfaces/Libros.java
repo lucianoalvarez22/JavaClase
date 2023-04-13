@@ -1,75 +1,33 @@
 package tema4Interfaces;
 
-public class Libros implements Prestable {
+public class Libros extends Biblioteca implements Prestable {
 	
 	//ATRIBUTO
-	private int codigo;
-	private String titulo;
-	private int anyo;
 	private boolean prestado;
 	
 	//CONSTRUCTOR
-	public Libros(int codigo, String titulo, int anyo, boolean prestado) {
-		this.codigo = codigo;
-		this.titulo = titulo;
-		this.anyo = anyo;
-		this.prestado = prestado;
+	public Libros(String titulo, String codigo, int anyo) {
+		super(titulo,  codigo,  anyo);
+		this.prestado=false;
 	}
 	
 	//GET AND SET
-	public int getCodigo() {
-		return codigo;
+	
+	public void prestar() {
+		this.prestado=true;		
 	}
 
-	public void setCodigo(int codigo) {
-		this.codigo = codigo;
-	}
-
-	public String getTitulo() {
-		return titulo;
-	}
-
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
-	}
-
-	public int getAnyo() {
-		return anyo;
-	}
-
-	public void setAnyo(int anyo) {
-		this.anyo = anyo;
+	public void devolver() {		
+		this.prestado=true;	
 	}
 
 	public boolean isPrestado() {
-		return prestado;
+		//return this.prestado;
+		return this.isPrestado();
 	}
 
 	public void setPrestado(boolean prestado) {
 		this.prestado = prestado;
-	}
-
-	//TOSTRING
-	@Override
-	public String toString() {
-		return "Libros [codigo=" + codigo + ", titulo=" + titulo + ", anyo=" + anyo + ", prestado=" + prestado + "]";
-	}
-	
-	//3 METODOS DE EJERCICIO
-	
-	public void prestar() {
-		setPrestado(true); //LE PASAMOS COMO PARAMETRO EL VALOR "TRUE" AL METODO SET PRESTADO
-	}
-	
-	public void devolver() {
-		setPrestado(false);
-	}
-	
-	public String infoEstado() {
-		if (this.prestado) {
-			return "El libro esta prestado";
-		}
-		return "El libro no esta prestado"; 
 	}
 	
 	

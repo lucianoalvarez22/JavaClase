@@ -56,17 +56,20 @@ public class Persona {
 	@Override
 	public boolean equals(Object obj) {
 		Persona personComparar = (Persona) obj;
-		if (this.nombre == personComparar.nombre && this.apellidos == personComparar.apellidos
-				&& this.edad == personComparar.edad)
-			return true;
-		return false;
+		if(this==personComparar)
+			return true; 
+		else {
+			
+			if (this.nombre.equals(nombre) && this.apellidos.equals(apellidos) && this.edad == personComparar.edad)
+				return true;
+			return false; 
+		}
 	}
 
 	// CLONE
 	@Override
 	public Object clone() throws CloneNotSupportedException {
-		Persona personaClonar = new Persona(this.nombre, this.apellidos,this.edad);
-		return personaClonar; 
+		return new Persona(this.nombre, apellidos, this.edad );
 		}
 
 }

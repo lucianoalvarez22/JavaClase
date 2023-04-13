@@ -51,6 +51,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Tema4EjercicioRepasoInterfaces2"/>
+			<item value="Tema4EjercicioRepaso2ObjetosComplejos"/>
 			<item value="Tema4EjercInterface"/>
 			<item value="Tema4EjercicioRepasoObjetos"/>
 			<item value="Tema4EjerciciosClassRoom"/>

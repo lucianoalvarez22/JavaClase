@@ -13,6 +13,12 @@ public class Profesor extends Persona {
 		this.asignatura = asignatura;
 	}
 
+	public Profesor(String idProfesor, String asignatura, Persona p) {
+		super(p);
+		this.idProfesor = idProfesor;
+		this.asignatura = asignatura;
+	}
+
 	// CONSTRUCTOR COPIA
 	public Profesor(Profesor prof) {
 		super(prof.nombre, prof.apellidos, prof.edad);
@@ -40,27 +46,36 @@ public class Profesor extends Persona {
 	// TOSTRING
 	@Override
 	public String toString() {
-		return "Profesor [idProfesor=" + idProfesor + ", asignatura=" + asignatura + ", Nombre=" + super.nombre 
+		return "Profesor [idProfesor=" + idProfesor + ", asignatura=" + asignatura + ", Nombre=" + super.nombre
 				+ ", Apellidos=" + super.apellidos + ", Edad=" + super.edad + "]";
 	}
 
 	// EQUALS
 	@Override
 	public boolean equals(Object obj) {
-		Profesor profComparar = (Profesor) obj;
-		if (this.idProfesor == profComparar.idProfesor && this.asignatura == profComparar.asignatura
-				&& super.nombre == profComparar.nombre && super.apellidos == profComparar.apellidos
-				&& super.edad == profComparar.edad)
+		Profesor other = (Profesor) obj;
+		if (this == other)
 			return true;
-		return false;
+
+		if (asignatura == null) {
+			if (other.asignatura != null) 
+				return false;
+		} else if (!asignatura.equals(other.asignatura))
+			return false;
+
+		if (idProfesor == null) {
+			if (other.idProfesor != null)
+				return false;
+		} else if (!idProfesor.equals(other.idProfesor))
+			return false;
+		return true; 
 	}
 
 	// CLONE
 	@Override
 	public Object clone() throws CloneNotSupportedException {
-		Profesor profClonado = new Profesor(this.idProfesor, this.asignatura, super.nombre, super.apellidos,
-				super.edad);
-		return profClonado;
+		Persona personaClon = (Persona) super.clone();
+		return new Profesor(this.idProfesor, this.asignatura, personaClon);
 	}
 
 }

@@ -3,10 +3,13 @@ package testRepaso;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+import java.util.Date;
+
 import org.junit.Test;
 
 import tema4Repaso.Persona;
 import tema4Repaso.Profesor;
+import tema4Repaso.ProfesorInterino;
 
 public class TestRepaso {
 
@@ -41,18 +44,30 @@ public class TestRepaso {
 		assertFalse("Deberia ser falso", personaClon.equals(persona3));
 		assertTrue("Deberia ser True", persona5.equals(persona3));
 		assertFalse("Deberia ser falso", persona5.equals(persona1));
-
-	}
-
-	@Test
-	public void TestProfesor() throws CloneNotSupportedException {
-
-		Profesor profe1 = new Profesor("1", "Programacion", "Luis", "Velarde", 9);
-		Profesor profe2 = new Profesor("2", "Sistemas", "Iker", "Obando", 49);
-		Profesor profe3 = new Profesor("3", "Base de Datos", "Carmen", "Leal", 27);
-		Profesor profe4 = profe1;
-		Profesor profeClon = (Profesor) profe3.clone();
-		Profesor profe5 = new Profesor(profe1);
+		
+		//CLASE PROFESOR:
+		
+		Profesor profe1 = new Profesor("1", "Programacion", persona1);
+		Profesor profe2=new Profesor("0002","programacion",persona2);
+		Profesor profe4=(Profesor)profe1.clone();
+		
+		assertFalse(profe1==profe2);
+		assertFalse(profe1.equals(profe2));
+		assertFalse(profe1==profe4);
+		assertTrue(profe1.equals(profe4));
+		
+		Profesor profe3=new Profesor("0003","programacion",persona1);
+		assertFalse(profe1==profe3);
+		
+		//CLASE INTERINO
+		
+		Date d = new Date(); //TE DEVUELVE LA FECHA DE HOY
+		ProfesorInterino pfi1 = new ProfesorInterino(d, profe1);
+		ProfesorInterino pfi2 = new ProfesorInterino(d, profe1);
+		
+		assertFalse(pfi1 == pfi2);
+		assertTrue(pfi1.equals(pfi2));
+		
 
 	}
 
