@@ -34,6 +34,7 @@ public class TestInterfaz {
 		
 	
 		assertTrue("Deberia ser true", m1.getPrioridad() == "media");
+		assertTrue("Deberia ser true", m1.getPrioridad().equals("media"));
 		
 	}
 

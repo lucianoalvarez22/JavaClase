@@ -2,8 +2,8 @@ package interfacesRepaso2;
 
 public class Mensaje implements Logable {
 	//ATRIBUTOS
-	public String mensaje;
-	public String prioridad;
+	private String mensaje;
+	private String prioridad;
 	
 	
 	//CONSTRUCTOR

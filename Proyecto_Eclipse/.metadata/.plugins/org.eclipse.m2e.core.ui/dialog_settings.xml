@@ -51,6 +51,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="TEMA4ArraysEjercicios"/>
+			<item value="Tema4ARRAYS"/>
+			<item value="Tema4EjemploAtributoObjeto"/>
 			<item value="Tema4EjercicioRepasoInterfaces2"/>
 			<item value="Tema4EjercicioRepaso2ObjetosComplejos"/>
 			<item value="Tema4EjercInterface"/>

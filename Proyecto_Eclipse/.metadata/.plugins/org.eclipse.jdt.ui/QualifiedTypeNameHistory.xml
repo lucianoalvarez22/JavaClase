@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="ejercicioGestionErrores.SalidaException"/>
-    <fullyQualifiedTypeName name="java.nio.file.spi.FileSystemProvider"/>
-    <fullyQualifiedTypeName name="ejercicioGestionErrores.LeerPorTeclado"/>
-    <fullyQualifiedTypeName name="java.lang.Character"/>
-    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="ejercicioGestionErrores.VocalException"/>
-    <fullyQualifiedTypeName name="gestionExcepcepcionesAleatorias.ExcepcionesAleatorias"/>
-    <fullyQualifiedTypeName name="gestionExcepcepcionesAleatorias.SuperiorException"/>
     <fullyQualifiedTypeName name="gestionExcepcepcionesAleatorias.InferiorException"/>
     <fullyQualifiedTypeName name="gestionExcepcionesPorTeclado.VocalException"/>
     <fullyQualifiedTypeName name="gestionExcepcionesPorTeclado.NumeroException"/>
@@ -27,7 +18,6 @@
     <fullyQualifiedTypeName name="paquete1.ClaseUno"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.Constantes"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.NumeroNoValidoException"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.NumeroNotFoundException"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.PosicionNoValidaException"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.PosicionVaciaException"/>
@@ -41,7 +31,6 @@
     <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.utilidades.Utilidades"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.CajaFuerte"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.excepciones.DemasiadosIntentosException"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.excepciones.InsuficientesDigitosException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.excepciones.ExcesivosDigitosException"/>
@@ -57,7 +46,18 @@
     <fullyQualifiedTypeName name="tema4Repaso.Profesor"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="tema4Repaso.ProfesorInterino"/>
-    <fullyQualifiedTypeName name="tema4RepasoDos.Electrodomestico"/>
     <fullyQualifiedTypeName name="tema4RepasoDos.Frigorifico"/>
     <fullyQualifiedTypeName name="interfacesRepaso2.Mensaje"/>
+    <fullyQualifiedTypeName name="tema4RepasoDos.Electrodomestico"/>
+    <fullyQualifiedTypeName name="java.security.cert.X509CRLSelector"/>
+    <fullyQualifiedTypeName name="ejemploAtributoObjeto.Mascota"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="ejemploAtributoObjeto.Localidad"/>
+    <fullyQualifiedTypeName name="ejemploAtributoObjeto.Direccion"/>
+    <fullyQualifiedTypeName name="ejemploAtributoObjeto.Persona"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="ejercicio7.Persona"/>
 </qualifiedTypeNameHistroy>

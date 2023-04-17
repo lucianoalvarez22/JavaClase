@@ -61,7 +61,7 @@ public class Electrodomestico {
 		if(this==Elec) 
 			return true;
 			else {
-				if (this.marca.equals(marca) && this.modelo.equals(modelo) && this.consumoWatios==Elec.consumoWatios)
+				if (this.marca.equals(Elec.marca) && this.modelo.equals(Elec.modelo) && this.consumoWatios==Elec.consumoWatios)
 					return true;
 				return false;
 			}
@@ -72,10 +72,4 @@ public class Electrodomestico {
 	public Object clone() throws CloneNotSupportedException {
 		return new Electrodomestico(this.marca, this.modelo, this.consumoWatios); 
 	}
-	
-	
-	
-	
-	
-	
 	}

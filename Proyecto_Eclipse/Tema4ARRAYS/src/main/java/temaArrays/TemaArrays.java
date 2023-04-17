@@ -1,0 +1,11 @@
+package temaArrays;
+
+public class TemaArrays {
+	//LOS ARRAYS SON ESTRUCTURAS DE DATOS
+	//LOS ARRAYS TIENEN QUE SER DEL MISMO TIPO 
+	//DECLARACION. LO QUE OCUPA EL ARRAY NO SE PODRÁ CAMBIAR UNA VEZ INICIALIZADO
+	int[] myArray = new int[10];
+	
+	//OTRA FORMA DE DECLARACION
+	int myArray2[] = {1,2,3,4,5};
+}

@@ -1,5 +1,7 @@
 package tema4RepasoDos;
 
+import java.security.cert.X509CRLSelector;
+
 public class Frigorifico extends Electrodomestico {
 	
 	//ATRIBUTO
@@ -35,8 +37,7 @@ public class Frigorifico extends Electrodomestico {
 	//TO STRING
 	@Override
 	public String toString() {
-		return "Frigorifico [temperatura=" + temperatura + ", marca=" + marca + ", modelo=" + modelo
-				+ ", consumoWatios=" + consumoWatios + "]";
+		return "Frigorifico: " + super.toString() + " -Temperatura: " + this.temperatura;
 	}
 	
 	//EQUALS
@@ -46,25 +47,17 @@ public class Frigorifico extends Electrodomestico {
 		if(this==frig)
 			return  true;
 		else {
-			if(this.temperatura == frig.temperatura && this.marca.equals(marca) && this.modelo.equals(modelo) && this.consumoWatios==frig.consumoWatios)
-				return true;
-			return false;
-		}
+			if(this.temperatura == frig.temperatura)
+				return super.equals(obj);
+				return false; 	
+		} 
 	}
 	
 	//CLONE
 	@Override
 	public Object clone() throws CloneNotSupportedException {
-		return new Frigorifico(this.temperatura, this.marca, this.modelo, this.consumoWatios);
+		Electrodomestico elecPadre = (Electrodomestico) super.clone(); //HACEMOS UN OBJETO DEL PADRE Y LO CLONAMOS
+		return new Frigorifico(this.temperatura, elecPadre.marca, elecPadre.modelo, elecPadre.consumoWatios);
 		
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	}	
 }

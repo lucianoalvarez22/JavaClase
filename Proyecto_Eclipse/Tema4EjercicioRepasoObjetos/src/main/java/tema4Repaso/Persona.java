@@ -60,7 +60,7 @@ public class Persona {
 			return true; 
 		else {
 			
-			if (this.nombre.equals(nombre) && this.apellidos.equals(apellidos) && this.edad == personComparar.edad)
+			if (this.nombre.equals(personComparar.nombre) && this.apellidos.equals(personComparar.apellidos) && this.edad == personComparar.edad)
 				return true;
 			return false; 
 		}
