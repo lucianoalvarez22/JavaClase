@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="gestionExcepcepcionesAleatorias.InferiorException"/>
-    <fullyQualifiedTypeName name="gestionExcepcionesPorTeclado.VocalException"/>
-    <fullyQualifiedTypeName name="gestionExcepcionesPorTeclado.NumeroException"/>
-    <fullyQualifiedTypeName name="gestionExcepcionesPorTeclado.BlancoException"/>
-    <fullyQualifiedTypeName name="gestionExcepcionesPorTeclado.SalidaException"/>
-    <fullyQualifiedTypeName name="ejercicioGestionEspecificasGenericas.InfantilException"/>
-    <fullyQualifiedTypeName name="ejercicioGestionEspecificasGenericas.AdultoException"/>
-    <fullyQualifiedTypeName name="ejercicioGestionEspecificasGenericas.MayorException"/>
     <fullyQualifiedTypeName name="ejercicioGestionEspecificasGenericas.PruebaEdadPersonas"/>
     <fullyQualifiedTypeName name="excepciones.Menor25Exception"/>
     <fullyQualifiedTypeName name="excepciones.Menor50Exception"/>
@@ -56,8 +48,16 @@
     <fullyQualifiedTypeName name="ejemploAtributoObjeto.Direccion"/>
     <fullyQualifiedTypeName name="ejemploAtributoObjeto.Persona"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="ejercicio7.Persona"/>
+    <fullyQualifiedTypeName name="tema4RepasoRobots.Robot"/>
+    <fullyQualifiedTypeName name="ejercicioInterfaz.Area"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="ejercicioInterfaz.Circulo"/>
+    <fullyQualifiedTypeName name="ejercicioInterfaz.Figura"/>
+    <fullyQualifiedTypeName name="ejercicioInterfaz.Rectangulo"/>
+    <fullyQualifiedTypeName name="examenTeorico.Examen"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

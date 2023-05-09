@@ -51,6 +51,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Tema4EjerciciosSueltos"/>
+			<item value="Tema4EjercicioRepasoMetodoHeredadoRobots"/>
 			<item value="TEMA4ArraysEjercicios"/>
 			<item value="Tema4ARRAYS"/>
 			<item value="Tema4EjemploAtributoObjeto"/>
@@ -64,7 +66,6 @@
 			<item value="ejercicioGestionEspecificasGenericas"/>
 			<item value="ejercicioGestionErroresMaven"/>
 			<item value="ejercicioMaven"/>
-			<item value="testMaven"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

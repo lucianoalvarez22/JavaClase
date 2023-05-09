@@ -14,6 +14,10 @@ public class Ejercicio2 {
 	 * ejercicios).
 	 */
 	
+	//GENERO NUM ALEATORIOS
+	private static int generarNumeroAleatorio(int min, int max) {
+		return (int) (Math.random() * (max - min + 1) + min);
+	}
 	
 	//RELLENO ARRAY
 	 public static void rellenarArray(int[] array, int min, int max) {
@@ -29,10 +33,8 @@ public class Ejercicio2 {
 	        }
 	    }
 	 
-	 //GENERO NUM ALEATORIOS
-	 private static int generarNumeroAleatorio(int min, int max) {
-		 return (int) (Math.random() * (max - min + 1) + min);
-	 }
+	 
+	 
 	 
 	 //SUMAR EL ARRAY
 	 public static int sumarArray(int[] array) {

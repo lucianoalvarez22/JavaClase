@@ -46,7 +46,7 @@ public class Persona {
 		}
 		return personaMayorEdad;
 	}
-
+	
 	// EQUALS
 	@Override
 	public boolean equals(Object obj) {

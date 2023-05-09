@@ -28,6 +28,7 @@ public class Ejercicio6 {
 	 public static void imprimirMatriz(int[][] matriz) {
 	        for (int i = 0; i < matriz.length; i++) {
 	            System.out.println(Arrays.toString(matriz[i]));
+	  
 	        }
 	    }
 	 

@@ -15,17 +15,17 @@ public class Ejercicio3 {
 
         for (int i = 0; i < array1.length; i++) {
             if (array1[i] != array2[i]) {
-                return false;
+                return false; 
             }
         }
 
-        return true;
+        return true; 
     }
 	
 	public static void main(String[] args) {
 		//DECLARAMOS E INCILIZAMOS DOS ARRAYS
 		
-		int[] array1 = {1, 2, 3};
+		int[] array1 = {1, 2, 3}; 
         int[] array2 = {1, 2, 3};
         int[] array3 = {1, 2, 3};
 
