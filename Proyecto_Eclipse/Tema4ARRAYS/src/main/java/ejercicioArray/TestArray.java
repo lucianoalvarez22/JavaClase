@@ -19,13 +19,13 @@ public class TestArray {
 		for (int i = 0; i < TAMANIO_ARRAY; i++) {
 			System.out.print("Introduce un numero en la posicion " + i + ": ");
 			try {
-				// Leo lo que ingresa el usuario en forma de cadena y lo parseo a entero
+				//Introduzco los numeros enteros
 				int num = entradaEscaner.nextInt();
 				// guardo el entero en "myArray"
 				myArray[i] = num;
 			} catch (InputMismatchException e) { 
 				// Si meto otra cosa que no sea numero, salta este error y decremento la i para
-				// repetir la iteracion del bucle
+				// repetir la iteracion del bucle y me pida otra vez meter el numero
 				System.out.println("Solo se permiten numeros enteros. Intentalo de nuevo.");
 				i--;
 		        entradaEscaner.next();
