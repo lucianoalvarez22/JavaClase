@@ -6,7 +6,7 @@ public class Main {
 		
 		Circulo c1=new Circulo(5, "Azul");
 		Figura f1=c1;
-	
+		
 		Rectangulo r1=new Rectangulo(4,7, "Rojo");
 		
 		c1.obtenerArea();

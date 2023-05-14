@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="excepciones.Menor25Exception"/>
-    <fullyQualifiedTypeName name="excepciones.Menor50Exception"/>
-    <fullyQualifiedTypeName name="excepciones.Menor75Exception"/>
-    <fullyQualifiedTypeName name="excepciones.Menor100Exception"/>
-    <fullyQualifiedTypeName name="java.lang.Number"/>
-    <fullyQualifiedTypeName name="paquete2.ChequeaNumeros"/>
     <fullyQualifiedTypeName name="paquete1.ClaseUno"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.Constantes"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.NumeroNoValidoException"/>
@@ -18,12 +12,10 @@
     <fullyQualifiedTypeName name="ejerciciosTemaCero.Joven"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.excepciones.MesNoValidoException"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.ExamenSegundoParcial"/>
-    <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.utilidades.Constantes"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.utilidades.Utilidades"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.CajaFuerte"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.excepciones.DemasiadosIntentosException"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.excepciones.InsuficientesDigitosException"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.excepciones.ExcesivosDigitosException"/>
     <fullyQualifiedTypeName name="Tema4.Animal"/>
     <fullyQualifiedTypeName name="Tema4.Perro"/>
@@ -57,7 +49,15 @@
     <fullyQualifiedTypeName name="ejercicioInterfaz.Figura"/>
     <fullyQualifiedTypeName name="ejercicioInterfaz.Rectangulo"/>
     <fullyQualifiedTypeName name="examenTeorico.Examen"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="es.corenetwors.dam.segundaEvaluacion.recuperacion.excepciones.RadioNovalidoException"/>
+    <fullyQualifiedTypeName name="es.corenetworks.dam.examenTema3.utilidades.Constantes"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="es.corenetwors.dam.segundaEvaluacion.recuperacion.excepciones.MayorQueException"/>
+    <fullyQualifiedTypeName name="es.corenetwors.dam.segundaEvaluacion.recuperacion.excepciones.MenorQueException"/>
+    <fullyQualifiedTypeName name="es.corenetwors.dam.segundaEvaluacion.recuperacion.utilidades.Constantes"/>
+    <fullyQualifiedTypeName name="es.corenetwors.dam.segundaEvaluacion.recuperacion.utilidades.Utilidades"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="ejercicioArrayObjetos.Rectangulo"/>
 </qualifiedTypeNameHistroy>
