@@ -13,6 +13,7 @@ public class ArrayObjetos {
 				Rectangulo r4 = new Rectangulo(1, 5);
 				Rectangulo r5 = new Rectangulo(1, 6);
 				
+				
 				//Rellenamos el Array
 				arrayRect[0]=r1;
 				arrayRect[1]=r2;
