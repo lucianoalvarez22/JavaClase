@@ -179,7 +179,9 @@ public class EjerciciosString {
 	}
 
 	public static void main(String[] args) {
-
+		
+		/* Descomentar cada funcion para ir probando uno a uno */
+		
 		// System.out.println(cantidadVocales());
 		// System.out.println(invertirCadena());
 		// System.out.println(verificarCaracter());
