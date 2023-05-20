@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.Constantes"/>
-    <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.NumeroNoValidoException"/>
-    <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.NumeroNotFoundException"/>
-    <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.PosicionNoValidaException"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.utilidades.PosicionVaciaException"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="es.corenetworks.dam.testExamen.Agenda"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ejercicioArrayObjetos.Rectangulo"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.util.Hashtable"/>
+    <fullyQualifiedTypeName name="java.util.Enumeration"/>
+    <fullyQualifiedTypeName name="temaClaseAbstracta.Vehiculo"/>
+    <fullyQualifiedTypeName name="temaClasePolimorfismo.Encargado"/>
 </qualifiedTypeNameHistroy>

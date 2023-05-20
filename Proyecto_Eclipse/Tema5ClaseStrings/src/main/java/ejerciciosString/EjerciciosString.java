@@ -185,7 +185,7 @@ public class EjerciciosString {
 		// System.out.println(cantidadVocales());
 		// System.out.println(invertirCadena());
 		// System.out.println(verificarCaracter());
-		// compararString();
+		//compararString(); 
 		//System.out.println(convertirInt());
 		//System.out.println(convertirFloat());
 
